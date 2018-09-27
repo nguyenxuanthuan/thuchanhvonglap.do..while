@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var value = null;
+    do {
+        value = prompt("Nh?p vào s? t? 1 -> 10");
+    } while (value < 1 || value > 10);
+    alert("S? b?n v?a nh?p là " + value);
+</script>
+</body>
+</html>
